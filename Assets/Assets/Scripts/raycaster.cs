@@ -19,9 +19,9 @@ public class raycaster : MonoBehaviour {
             {
                 Debug.Log("Eto Unit");
             }
-            if (hit.collider.gameObject.tag == ("Terraain"))
+            if (hit.collider.gameObject.tag == ("Terrain"))
             {
-                
+                Debug.Log("Eto ZEMLIA");
             }
             Debug.DrawLine(camera.position, hit.point, Color.yellow);
         }
