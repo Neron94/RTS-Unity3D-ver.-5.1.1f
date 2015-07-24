@@ -13,9 +13,7 @@ public class raycaster : MonoBehaviour {
     {
         if (Input.GetMouseButtonDown(0))
         {
-            ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            Physics.Raycast(ray, out hit, range);
-            Debug.DrawLine(camera.position, hit.point, Color.yellow);
+            
         }
     }
 }
