@@ -234,8 +234,8 @@ GameObject:
   - 124: {fileID: 512125260}
   - 81: {fileID: 512125259}
   - 114: {fileID: 512125258}
-  - 114: {fileID: 512125264}
   - 114: {fileID: 512125265}
+  - 114: {fileID: 512125264}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -331,11 +331,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 512125257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26e17f3c4cec4be42afb91c43bed8854, type: 3}
+  m_Script: {fileID: 11500000, guid: 842b9b8ecc2710540a74fca976a44850, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 1000
-  camera: {fileID: 512125263}
+  camSpeed: 5
 --- !u!114 &512125265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,6 +353,7 @@ MonoBehaviour:
   range: 1000
   camera: {fileID: 512125263}
   asignUnit: 0
+  move: 0
 --- !u!1 &558250833
 GameObject:
   m_ObjectHideFlags: 0
